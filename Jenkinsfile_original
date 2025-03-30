@@ -7,14 +7,14 @@ pipeline {
     }
 
     environment {
-        IMAGE_NAME = 'atul0074/insureme:1.0'
+        IMAGE_NAME = 'krishna131099/insureme:1.0'
     }
 
     stages {
         stage('Git Checkout') {
             steps {
                 echo 'Cloning the Git repository'
-                git branch: 'main', url: 'https://github.com/Atul-technology/InsureMe-20Mar'
+                git branch: 'main', url: 'https://github.com/krishna-gitthub/insurance'
             }
         }
 
